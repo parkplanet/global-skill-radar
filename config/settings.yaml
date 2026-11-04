@@ -1,0 +1,86 @@
+github:
+  per_page: 100
+  max_pages: 3
+  request_timeout_seconds: 30
+  # Search queries are intentionally diverse. GitHub search is not exhaustive.
+  code_queries:
+    - 'filename:SKILL.md'
+  repository_queries:
+    - '"agent skills"'
+    - '"SKILL.md"'
+    - 'claude skills'
+    - 'codex skills'
+    - 'agent skill'
+
+ranking:
+  top_n: 20
+  rising_min_history_days: 1
+
+categories:
+  编程开发:
+    - coding
+    - code
+    - programmer
+    - developer
+    - software
+    - debugging
+    - git
+  研究与知识:
+    - research
+    - academic
+    - paper
+    - literature
+    - science
+    - scholar
+  写作与内容:
+    - writing
+    - writer
+    - copywriting
+    - content
+    - fiction
+    - editing
+  商业与运营:
+    - business
+    - operations
+    - strategy
+    - management
+    - finance
+    - sales
+  数据分析:
+    - data
+    - analytics
+    - sql
+    - statistics
+    - visualization
+  设计与产品:
+    - design
+    - product
+    - ui
+    - ux
+    - figma
+    - frontend
+  营销与销售:
+    - marketing
+    - seo
+    - social
+    - ads
+    - growth
+  办公效率:
+    - office
+    - productivity
+    - spreadsheet
+    - docs
+    - email
+    - calendar
+  安全与运维:
+    - security
+    - devops
+    - infrastructure
+    - cloud
+    - monitoring
+    - testing
+  通用 Agent:
+    - agent
+    - workflow
+    - automation
+    - orchestration
