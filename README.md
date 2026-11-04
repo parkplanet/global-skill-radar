@@ -55,6 +55,15 @@ python scripts/classify_skills.py
 python scripts/generate_report.py
 ```
 
+## 自动测试与数据校验
+
+工作流在生成日报前会执行：
+
+- `python -m unittest discover -s tests -v`：运行排名与日期解析单元测试。
+- `python scripts/validate_snapshot.py`：检查快照结构、候选唯一性、Star/Fork 数值及排名字段。
+
+如果采集结果为空，校验器会给出警告；如果结构错误或存在重复 Skill ID，则停止本次工作流，避免提交错误日报。
+
 ## 输出
 
 - `data/current.json`：最近一次采集的原始标准化数据。
