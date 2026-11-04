@@ -59,7 +59,9 @@ def main():
 
     lines += ["", "## 三、新发现候选", ""]
     new_items = [s for s in skills if s.get("first_seen")]
-    if new_items:
+    if not data.get("previous_snapshot_date"):
+        lines.append("本次为基线快照，尚无前一日数据，暂不判断哪些候选属于新发现。")
+    elif new_items:
         for s in new_items[:top_n]:
             link = s.get("skill_url") or s.get("repo_url") or ""
             lines.append(f"- [{esc(s.get('name') or s.get('repo_full_name'))}]({link}) — {s.get('stars', 0)} Stars")
