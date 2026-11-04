@@ -50,7 +50,7 @@ def main():
         old = prev_map.get(skill["skill_id"])
         skill["previous_stars"] = old.get("stars") if old else None
         skill["star_growth"] = (skill.get("stars", 0) - old.get("stars", 0)) if old else None
-        skill["first_seen"] = old is None
+        skill["first_seen"] = (old is None) if prev else False
         skill["rank_metric"] = "repository_stars"
 
     skills.sort(key=lambda x: (x.get("stars", 0), x.get("discovery_score", 0)), reverse=True)
