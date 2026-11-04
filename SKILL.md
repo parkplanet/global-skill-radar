@@ -1,6 +1,6 @@
 ---
 name: global-skill-radar
-description: Discover, collect, rank, classify, and report globally popular AI Agent Skills on GitHub. Use when users ask for daily global Skill rankings, GitHub Skill trends, rising/new Skills, category rankings, or a Chinese daily Skill intelligence report.
+description: Discover and track trending AI Agent Skills on GitHub. Use for global Skill discovery, GitHub Star rankings, rising Skill projects, newly discovered SKILL.md files, category trends, daily snapshots, and scheduled Skill intelligence reports.
 ---
 
 # Global Skill Radar
@@ -18,7 +18,7 @@ This Skill describes how an agent should operate and interpret the collector. Th
 - Treat a repository as a candidate, not proof that every file in it is a valid Skill.
 - A candidate Skill is an individual `SKILL.md` path where possible; retain repository-level metrics and path-level identity.
 - Respect GitHub API rate limits. Use `GITHUB_TOKEN` or `GH_TOKEN`; never commit tokens.
-- The GitHub search API is not a complete census of GitHub. Reports must say "发现样本" (discovered sample), not "全球全部 Skill".
+- GitHub Search is not an exhaustive census. Every report must explicitly describe its results as a "discovered public sample," never as every Skill worldwide.
 - Do not scrape private repositories or bypass access controls.
 
 ## Daily workflow
@@ -28,18 +28,18 @@ This Skill describes how an agent should operate and interpret the collector. Th
 3. The collector queries GitHub code search for `filename:SKILL.md` and repository search for Agent Skill-related terms. It deduplicates by repository and Skill path.
 4. Run `python scripts/rank_skills.py` to compare the current snapshot with the previous snapshot.
 5. Run `python scripts/classify_skills.py` to assign broad, explicitly heuristic categories.
-6. Run `python scripts/generate_report.py` to create a Chinese Markdown report.
+6. Run `python scripts/generate_report.py` to create the Markdown daily report (currently generated in Chinese; this documentation is English).
 7. Preserve raw metrics, query provenance, timestamps, and ranking methodology. Do not fabricate missing growth data.
 
 ## Ranking methodology
 
 Publish separate lists rather than pretending one metric captures popularity:
 
-- **GitHub Star 排名**: repository star count; cumulative popularity proxy.
-- **近期增长榜**: daily/weekly star growth where historical snapshots exist.
-- **新发现 Skill**: first seen by this collector; this does not necessarily mean newly created on GitHub.
-- **最近活跃**: recent push/update timestamp.
-- **分类榜**: heuristic category based on repository name, description, topics, and Skill path.
+- **Most Starred**: repository Star count; a cumulative popularity proxy.
+- **Rising Skills**: Star growth between available comparable snapshots.
+- **New Discoveries**: first observed by this collector; this does not necessarily mean newly created on GitHub.
+- **Recently Active**: recent repository push/update timestamp.
+- **Category Insights**: heuristic classification based on repository name, description, topics, and Skill path.
 
 The default composite discovery score is a transparent heuristic, not an official GitHub ranking:
 - 45% normalized log(1 + stars)
@@ -65,7 +65,7 @@ Never execute discovered scripts during collection or ranking. Treat repository 
 
 ## Daily report requirements
 
-Write in Chinese and include:
+The current automated daily report is generated in Chinese. Include all the following, regardless of output language:
 1. collection time (UTC and Asia/Shanghai);
 2. API/query coverage and rate-limit or partial-collection warnings;
 3. Global discovered-sample Top 20 by stars;
