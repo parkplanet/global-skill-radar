@@ -1,8 +1,8 @@
-# 全球 AI Agent Skill GitHub 日报 — 2026-11-14
+# 全球 AI Agent Skill GitHub 日报 — 2026-11-15
 
-- 采集时间：2026-11-14 06:04:21 UTC / 2026-11-14 14:04:21 北京时间
+- 采集时间：2026-11-15 06:09:09 UTC / 2026-11-15 14:09:09 北京时间
 - 发现样本：0 个 Skill / 仓库候选
-- 仓库数量：1010
+- 仓库数量：1012
 - 数据来源：GitHub Public Search API
 - 口径声明：这是 GitHub 搜索可发现的公开样本，不是全球全部 Skill 的完整普查，也不是 GitHub 官方排行榜。
 
@@ -13,7 +13,7 @@
 
 ## 二、近期增长 TOP 20
 
-对比快照：2026-11-13
+对比快照：2026-11-14
 
 | 排名 | Skill / 仓库 | Star 增长 | 当前 Stars | 链接 |
 |---:|---|---:|---:|---|
@@ -37,26 +37,26 @@
 
 ## 五、待核验的仓库发现（尚未检索到 SKILL.md）
 
-- [mattpocock/skills](https://github.com/mattpocock/skills) — 323940 Stars；需人工核验是否包含 Skill
-- [obra/superpowers](https://github.com/obra/superpowers) — 317314 Stars；需人工核验是否包含 Skill
-- [affaan-m/ECC](https://github.com/affaan-m/ECC) — 302546 Stars；需人工核验是否包含 Skill
-- [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — 232937 Stars；需人工核验是否包含 Skill
-- [anthropics/skills](https://github.com/anthropics/skills) — 194222 Stars；需人工核验是否包含 Skill
-- [langgenius/dify](https://github.com/langgenius/dify) — 161127 Stars；需人工核验是否包含 Skill
-- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) — 154284 Stars；需人工核验是否包含 Skill
-- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — 149182 Stars；需人工核验是否包含 Skill
-- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — 147370 Stars；需人工核验是否包含 Skill
-- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — 144599 Stars；需人工核验是否包含 Skill
-- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) — 119730 Stars；需人工核验是否包含 Skill
-- [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — 117224 Stars；需人工核验是否包含 Skill
-- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — 115161 Stars；需人工核验是否包含 Skill
-- [tt-a1i/archify](https://github.com/tt-a1i/archify) — 96264 Stars；需人工核验是否包含 Skill
-- [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — 85321 Stars；需人工核验是否包含 Skill
-- [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) — 80323 Stars；需人工核验是否包含 Skill
-- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — 79452 Stars；需人工核验是否包含 Skill
-- [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — 72052 Stars；需人工核验是否包含 Skill
-- [blader/humanizer](https://github.com/blader/humanizer) — 68897 Stars；需人工核验是否包含 Skill
-- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — 67581 Stars；需人工核验是否包含 Skill
+- [mattpocock/skills](https://github.com/mattpocock/skills) — 324605 Stars；需人工核验是否包含 Skill
+- [obra/superpowers](https://github.com/obra/superpowers) — 317728 Stars；需人工核验是否包含 Skill
+- [affaan-m/ECC](https://github.com/affaan-m/ECC) — 303295 Stars；需人工核验是否包含 Skill
+- [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) — 233202 Stars；需人工核验是否包含 Skill
+- [anthropics/skills](https://github.com/anthropics/skills) — 194711 Stars；需人工核验是否包含 Skill
+- [langgenius/dify](https://github.com/langgenius/dify) — 161179 Stars；需人工核验是否包含 Skill
+- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) — 154487 Stars；需人工核验是否包含 Skill
+- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — 149599 Stars；需人工核验是否包含 Skill
+- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — 147903 Stars；需人工核验是否包含 Skill
+- [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — 144659 Stars；需人工核验是否包含 Skill
+- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) — 120167 Stars；需人工核验是否包含 Skill
+- [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — 117648 Stars；需人工核验是否包含 Skill
+- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — 115753 Stars；需人工核验是否包含 Skill
+- [tt-a1i/archify](https://github.com/tt-a1i/archify) — 96506 Stars；需人工核验是否包含 Skill
+- [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — 85351 Stars；需人工核验是否包含 Skill
+- [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) — 80544 Stars；需人工核验是否包含 Skill
+- [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) — 79521 Stars；需人工核验是否包含 Skill
+- [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — 72753 Stars；需人工核验是否包含 Skill
+- [blader/humanizer](https://github.com/blader/humanizer) — 69200 Stars；需人工核验是否包含 Skill
+- [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) — 67690 Stars；需人工核验是否包含 Skill
 
 ## 六、数据质量与限制
 
@@ -70,4 +70,4 @@
 
 ### 采集警告
 
-- code query 'filename:SKILL.md' page 1: GitHub API HTTP 429: {"message":"try again in 3.643359751s","documentation_url":"https://docs.github.com/rest/search/search#search-code","status":"429"}
+- code query 'filename:SKILL.md' page 1: GitHub API HTTP 429: {"message":"try again in 1.424938885s","documentation_url":"https://docs.github.com/rest/search/search#search-code","status":"429"}
